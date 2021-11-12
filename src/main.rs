@@ -22,6 +22,7 @@ fn process_to_sleep(s: &String){
                     };
                     println!("sleep for {}",s);
                     sleep(duration);
+                    println!("sleep done {}",s);
                 }
                 None =>
                     print_cmd_and_exit(2)
