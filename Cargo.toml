@@ -1,0 +1,17 @@
+[package]
+name = "xhSleepFor"
+version = "0.1.0"
+authors = ["xeth <adamhung12@gmail.com>"]
+edition = "2018"
+
+license = "MIT"
+keywords = ["utils"]
+description = "A tools similar to sleep in linux"
+homepage = "https://github.com/xh-dev-rust/xhSleepFor"
+repository = "https://github.com/xh-dev-rust/xhSleepFor"
+documentation = "https://github.com/xh-dev-rust/xhSleepFor"
+readme = "README.md"
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+regex="1.5.4"
